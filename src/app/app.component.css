@@ -1,0 +1,58 @@
+.counter{
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+    border-radius: 5px;
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter p{
+    font-size: 20px;
+}
+
+.counter button{
+    align-items: center;
+    flex-direction: row;
+}
+
+/* .counter button #btn1{
+    padding-left: 3px;
+} */
+
+#btn1{
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+
+#btn2{
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+
+#btn3{
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+
+#btn1:hover{
+    color: aquamarine;
+    background-color: black;
+}
+
+#btn2:hover{
+    color: aquamarine;
+    background-color: black;
+}
+
+#btn3:hover{
+    color: aquamarine;
+    background-color: black;
+}
